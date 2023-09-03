@@ -1,0 +1,75 @@
+/* Navbar.module.css */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: white;
+  color: #03045e;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center; /* Add this line */
+  box-shadow: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1px;
+  height: 100%;
+  align-items: center; /* Add this line */
+  margin-left: 30px;
+  color: #c51c1c;
+}
+
+.logo_pic {
+  width: 80px;
+  height: 100%;
+}
+
+.logo p {
+  place-self: center;
+}
+
+.heading_3 {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  list-style: none;
+  margin-right: 120px;
+}
+
+.ListItem {
+  font-weight: bold;
+  color: #03045e;
+  font-size: larger;
+  padding: 5px 0px;
+  border-bottom: 3px solid transparent; /* Add transparent border */
+  transition: border-color 0.3s;
+}
+
+.ListItem:hover {
+  cursor: pointer;
+
+  border-bottom: 3px solid #c51c1c; /* Added border style and width */
+}
+.button {
+  background-color: #03045e;
+  color: white;
+
+  width: 100px;
+  height: 37px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.button:hover {
+  background-color: #c51c1c;
+}
