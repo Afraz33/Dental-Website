@@ -8,7 +8,7 @@ function Navbar() {
           alt="logo"
           className={styles.logo_pic}
         ></img>
-        <p className={styles.heading_3}>Dental Shelter</p>
+        <p className={styles.heading_3}>First Stop Dental</p>
       </div>
       <ul className={styles.Links}>
         <li className={styles.ListItem}>Why us?</li>
