@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import Header from "../components/Header/Header";
 import Service from "../components/Service/Service";
+import Guarantee from "../components/Guarantee/Guarantee";
 import Dentists from "../components/Dentists/Dentists";
 function LandingPage() {
   return (
@@ -8,6 +9,7 @@ function LandingPage() {
       <Navbar />
       <Header />
       <Service />
+      <Guarantee />
       <Dentists />
     </div>
   );

@@ -1,17 +1,42 @@
 import styles from "./Dentists.module.css";
-
 function Dentists() {
   return (
-    <section>
-      <div className={styles.top_bar}>
-        <img src="/teeth_tick.png" alt="logo" className={styles.logo}></img>
-        <h2 className={styles.heading_2}>100% Satisfaction Guarantee!</h2>
-        <p className={styles.description}>
-          We only provide high quality dentistry & materials backed by our 100%
-          satisfaction guarantee. If you're ever unsatisfied with your visit,
-          please let us know and we'll make it right.
-        </p>
-        <button className={styles.button}>Get Started</button>
+    <section className={styles.Dentists}>
+      <h2 className={styles.heading_2}>
+        Meet your dentists at{" "}
+        <span className={styles.name}>FirstStopDental!</span>
+      </h2>
+      <div className={styles.grid}>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
+        <div className={styles.card}>
+          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Dr. John Doe</h3>
+          <h4 className={styles.heading_4}> Oncologist</h4>
+        </div>
       </div>
     </section>
   );
