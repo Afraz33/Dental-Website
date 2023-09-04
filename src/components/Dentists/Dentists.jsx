@@ -8,34 +8,32 @@ function Dentists() {
       </h2>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
+          <img src="/dentist.png" alt="dentist" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Oncologist</h3>
+          <div className={styles.occupation}>
+            <h4 className={styles.heading_4}> Dr. John Doe</h4>
+          </div>
         </div>
         <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
+          <img src="/dentist.png" alt="dentist" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Oncologist</h3>
+          <div className={styles.occupation}>
+            <h4 className={styles.heading_4}> Dr. John Doe</h4>
+          </div>
         </div>
         <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
+          <img src="/dentist.png" alt="dentist" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Oncologist</h3>
+          <div className={styles.occupation}>
+            <h4 className={styles.heading_4}> Dr. John Doe</h4>
+          </div>
         </div>
         <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
-        </div>
-        <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
-        </div>
-        <div className={styles.card}>
-          <img src="/doc.jpg" alt="doc" className={styles.image}></img>
-          <h3 className={styles.heading_3}>Dr. John Doe</h3>
-          <h4 className={styles.heading_4}> Oncologist</h4>
+          <img src="/dentist.png" alt="dentist" className={styles.image}></img>
+          <h3 className={styles.heading_3}>Oncologist</h3>
+          <div className={styles.occupation}>
+            <h4 className={styles.heading_4}> Dr. John Doe</h4>
+          </div>
         </div>
       </div>
     </section>
