@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   height: fit-content;
+  position: relative;
 }
 .header_img {
   width: 100%;
@@ -62,7 +63,7 @@
 
 .image_text {
   position: absolute;
-  top: 7%;
+  top: 14%;
   width: 450px;
   left: 8%;
   margin-bottom: 4px;
@@ -78,16 +79,16 @@
   position: absolute;
   color: #03045e;
   left: 8%;
-  top: 40%;
+  top: 47%;
   animation: fadeIn 3s ease-in backwards;
 }
 
 .button {
   animation: fadeInButton 6s ease-out forwards;
-  background-color: #03045e;
+  background-color: black;
   color: white;
   position: absolute;
-  top: 56%;
+  top: 62%;
   left: 8%;
   width: 140px;
   height: 40px;
@@ -96,7 +97,8 @@
 }
 
 .button:hover {
-  background-color: #c51c1c;
+  background-color: white;
+  color: black;
 }
 
 @keyframes fadeIn {

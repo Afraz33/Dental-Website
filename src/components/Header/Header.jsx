@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 function Header() {
   return (
     <header className={styles.header}>
+      <Navbar />
       <div class={styles.carousel_container}>
         {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>
         <div className={`${styles.overlay_box} ${styles.left_box2}`}></div> */}
