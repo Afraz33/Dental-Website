@@ -1,4 +1,5 @@
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
@@ -11,10 +12,12 @@ function Navbar() {
         <p className={styles.heading_3}>First Stop Dental</p>
       </div>
       <ul className={styles.Links}>
+        <li className={styles.ListItem}></li>
         <li className={styles.ListItem}>Why us?</li>
+
         <li className={styles.ListItem}>Our Services</li>
-        <li className={styles.ListItem}>Home</li>
-        <li className={styles.ListItem}>Policy</li>
+        <li className={styles.ListItem}>Before-After</li>
+        <li className={styles.ListItem}>Our Team</li>
 
         <button className={styles.button}>Book Now</button>
       </ul>

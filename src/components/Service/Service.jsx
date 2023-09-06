@@ -7,11 +7,13 @@ function Service() {
       </h2>
       <div className={styles.steps_div}>
         <div className={styles.card}>
-          <img
-            src="/speaking.jpg"
-            alt="speaking"
-            className={styles.image}
-          ></img>
+          <div className={styles.image_div}>
+            <img
+              src="/speaking.jpg"
+              alt="speaking"
+              className={styles.image}
+            ></img>
+          </div>
           <div className={styles.number}>
             <h3>1</h3>
           </div>
@@ -21,11 +23,13 @@ function Service() {
         </div>
 
         <div className={styles.card}>
-          <img
-            src="/dentist_speak.jpg"
-            alt="speaking"
-            className={styles.image}
-          ></img>
+          <div className={styles.image_div}>
+            <img
+              src="/dentist_speak.jpg"
+              alt="speaking"
+              className={styles.image}
+            ></img>
+          </div>
           <div className={styles.number}>
             <h3>2</h3>
           </div>
@@ -35,11 +39,13 @@ function Service() {
         </div>
 
         <div className={styles.card}>
-          <img
-            src="/fianlize_plan.jpg"
-            alt="speaking"
-            className={styles.image}
-          ></img>
+          <div className={styles.image_div}>
+            <img
+              src="/fianlize_plan.jpg"
+              alt="speaking"
+              className={styles.image}
+            ></img>
+          </div>
           <div className={styles.number}>
             <h3>3</h3>
           </div>
