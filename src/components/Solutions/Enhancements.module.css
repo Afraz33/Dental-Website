@@ -1,6 +1,6 @@
 .Enhancements {
   width: 100%;
-  background-color: #f1f7fc;
+  background-color: rgba(244, 246, 243, 255);
   height: fit-content;
   padding: 50px 0px;
 }
@@ -51,6 +51,7 @@
 }
 
 .heading_3 {
+  margin-top: 0px;
   width: 340px;
   font-size: 50px;
   font-weight: 300;
@@ -68,7 +69,7 @@
 }
 
 .treatment {
-  background-color: #cfecf7;
+  background-color: rgba(201, 218, 215, 255);
   display: flex;
   flex-direction: column;
   row-gap: 0px;
