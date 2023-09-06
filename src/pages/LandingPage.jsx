@@ -6,6 +6,7 @@ import Dentists from "../components/Dentists/Dentists";
 import Features from "../components/Features/Features";
 import Footer from "../components/Footer/Footer";
 import BeforeAfter from "../components/Before-After/Before-After";
+import Enhancements from "../components/Solutions/Enhancements";
 function LandingPage() {
   return (
     <div>
@@ -16,6 +17,7 @@ function LandingPage() {
       <Features />
 
       <BeforeAfter />
+      <Enhancements />
       <Footer />
     </div>
   );
