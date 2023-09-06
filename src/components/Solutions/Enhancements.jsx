@@ -29,28 +29,23 @@ function Enhancements() {
           </p>
           <div
             className={styles.treatment_grid}
-            style={{ marginTop: "-290px" }}
+            style={{ marginTop: "-340px", rowGap: "0px" }}
           >
             <div className={styles.treatment}>
-              <h4 style={{ marginBottom: "0px" }}>Invisalign</h4>
-              <p>
-                The easy way to straighten your teeth. The Invisalign system
-                uses clear, removable aligners. Great for adults and teens.
-              </p>
+              <h4>Invisalign</h4>
             </div>
             <div className={styles.treatment}>
-              <h4 style={{ marginBottom: "0px" }}>Invisalign</h4>
-              <p>
-                The easy way to straighten your teeth. The Invisalign system
-                uses clear, removable aligners. Great for adults and teens.
-              </p>
+              <h4>Teeth Whitening</h4>
             </div>
             <div className={styles.treatment}>
-              <h4 style={{ marginBottom: "0px" }}>Invisalign</h4>
-              <p>
-                The easy way to straighten your teeth. The Invisalign system
-                uses clear, removable aligners. Great for adults and teens.
-              </p>
+              <h4>Extraction</h4>
+            </div>
+
+            <div className={styles.treatment}>
+              <h4>Teeth Whitening</h4>
+            </div>
+            <div className={styles.treatment}>
+              <h4>Extraction</h4>
             </div>
           </div>
         </div>
