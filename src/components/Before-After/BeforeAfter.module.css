@@ -1,4 +1,5 @@
 .Before_After {
+  padding-bottom: 80px;
   width: 100%;
   height: fit-content;
 }
@@ -32,6 +33,7 @@
 .card {
   width: 100%;
   position: relative;
+  padding: 0px 5px;
 }
 
 .image {
@@ -72,13 +74,26 @@
   color: black;
   position: absolute;
   top: 4%;
-  left: 5%;
+  left: 8%;
+}
+
+.left_arrow {
+  width: 18px;
+  position: absolute;
+  top: 17%;
+  left: 4%;
+}
+.right_arrow {
+  width: 18px;
+  position: absolute;
+  top: 17%;
+  left: 22%;
 }
 
 .para {
   position: absolute;
   top: 26%;
-  left: 5%;
+  left: 8%;
   font-size: 20px;
   font-weight: 300;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
