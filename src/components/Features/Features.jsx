@@ -9,11 +9,13 @@ function Features() {
       </h4>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img
+              className={styles.svg}
+              src="/family-vector.png"
+              alt="family"
+            ></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
             One Stop Dentistry
           </h4>
@@ -23,73 +25,75 @@ function Features() {
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img
+              className={styles.svg}
+              src="/medical-kit.png"
+              alt="family"
+            ></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
-            One Stop Dentistry
+            Same Day Emergency Care
           </h4>
           <p style={{ textAlign: "center", marginTop: "4px" }}>
-            General, cosmetic, pediatric, implant, oral surgery, orthodontic and
-            sedation dentistry for all ages.{" "}
+            We welcome same & next day appointments. We're here for you when you
+            need us.
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img className={styles.svg} src="/calendar.png" alt="family"></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
-            One Stop Dentistry
+            Open 6 days a week
           </h4>
           <p style={{ textAlign: "center", marginTop: "4px" }}>
-            General, cosmetic, pediatric, implant, oral surgery, orthodontic and
-            sedation dentistry for all ages.{" "}
+            You can rely on our team of dentists to receive the care you need
+            when you need it.
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img className={styles.svg} src="/computer.png" alt="family"></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
-            One Stop Dentistry
+            Modern Digital Dental Office
           </h4>
           <p style={{ textAlign: "center", marginTop: "4px" }}>
-            General, cosmetic, pediatric, implant, oral surgery, orthodontic and
-            sedation dentistry for all ages.{" "}
+            Book appointments online, receive text reminders and other
+            convenient digital tools for an updated dental experience.
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img
+              className={styles.svg}
+              src="/virtual-check.png"
+              alt="family"
+            ></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
-            One Stop Dentistry
+            Virtual Check-Ins
           </h4>
           <p style={{ textAlign: "center", marginTop: "4px" }}>
-            General, cosmetic, pediatric, implant, oral surgery, orthodontic and
-            sedation dentistry for all ages.{" "}
+            Complete forms online from home, and check-in offsite until
+            appointment time.
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            src="/family-vector.png"
-            alt="family"
-            className={styles.image}
-          ></img>
+          <div className={styles.image}>
+            <img
+              className={styles.svg}
+              src="/credit-card.png"
+              alt="family"
+            ></img>
+          </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
-            One Stop Dentistry
+            Flexible Payment Options
           </h4>
           <p style={{ textAlign: "center", marginTop: "4px" }}>
-            General, cosmetic, pediatric, implant, oral surgery, orthodontic and
-            sedation dentistry for all ages.{" "}
+            All PPO dental insurances accepted. Financing available. We will
+            help you get the care you need today.
           </p>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Guarantee from "../components/Guarantee/Guarantee";
 import Dentists from "../components/Dentists/Dentists";
 import Features from "../components/Features/Features";
 import Footer from "../components/Footer/Footer";
+import BeforeAfter from "../components/Before-After/Before-After";
 function LandingPage() {
   return (
     <div>
@@ -13,6 +14,8 @@ function LandingPage() {
       <Guarantee />
       <Dentists />
       <Features />
+
+      <BeforeAfter />
       <Footer />
     </div>
   );

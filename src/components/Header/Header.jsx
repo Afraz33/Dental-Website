@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 import Navbar from "../Navbar/Navbar";
 function Header() {
   return (
-    <header className={styles.header}>
+    <header id="home-section" className={styles.header}>
       <Navbar />
       <div class={styles.carousel_container}>
         {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>

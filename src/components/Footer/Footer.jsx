@@ -12,7 +12,7 @@ function Footer() {
         }}
         className={styles.heading_3}
       >
-        First Stop Dental @ Copy rights
+        First Stop Dental @ All Rights reserved
       </h3>
       <div
         style={{
