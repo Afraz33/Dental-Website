@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className={styles.navbar}>
@@ -12,7 +13,30 @@ function Navbar() {
         <p className={styles.heading_3}>First Stop Dental</p>
       </div>
       <ul className={styles.Links}>
-        <li className={styles.ListItem}></li>
+        <Link
+          style={{ textDecoration: "none" }}
+          className={styles.ListItem}
+          to="/"
+        >
+          Home
+        </Link>
+
+        <Link
+          style={{ textDecoration: "none" }}
+          className={styles.ListItem}
+          to="/pricing"
+        >
+          Pricing
+        </Link>
+
+        <Link
+          style={{ textDecoration: "none" }}
+          className={styles.ListItem}
+          to="/faq"
+        >
+          FAQ
+        </Link>
+
         <li className={styles.ListItem}>Why us?</li>
 
         <li className={styles.ListItem}>Our Services</li>
