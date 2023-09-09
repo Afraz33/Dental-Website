@@ -129,3 +129,6 @@
 .video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
+
+@media (max-width: 1361px) {
+}
