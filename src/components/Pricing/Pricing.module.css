@@ -4,7 +4,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 120px 10px;
+  padding: 120px 0px;
   margin-top: 0px;
 }
 
@@ -72,6 +72,7 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
   row-gap: 20px;
+  text-wrap: wrap;
 }
 .card {
   position: relative;
@@ -114,4 +115,28 @@
 
 .contact:hover {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .Pricing {
+    width: 80%;
+  }
+  .heading_1 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #c51c1c;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .heading_1 {
+    font-size: 60px;
+  }
 }

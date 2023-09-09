@@ -9,7 +9,7 @@ function Navbar() {
   useEffect(() => {
     // Function to check screen width and update isSmallScreen state
     const checkScreenWidth = () => {
-      setIsSmallScreen(window.innerWidth < 1331);
+      setIsSmallScreen(window.innerWidth < 1361);
     };
 
     // Add event listener to check screen width on window resize

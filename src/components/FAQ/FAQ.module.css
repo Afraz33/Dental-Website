@@ -1,7 +1,7 @@
 .FAQSection {
   width: 100%;
   height: fit-content;
-  padding: 120px;
+  padding: 120px 0px;
 }
 
 .grid {
@@ -26,7 +26,7 @@
 }
 
 .faqQuestion {
-  width: fit-content;
+  width: 70%;
   font-size: 25px;
   color: #c51c1c;
   margin-bottom: 15px;
