@@ -67,7 +67,7 @@ function Navbar() {
             ></img>
             <p className={styles.heading_3}>First Stop Dental</p>
           </div>
-          (
+
           <ul className={styles.Links}>
             <Link
               style={{ textDecoration: "none" }}
@@ -101,7 +101,6 @@ function Navbar() {
 
             <button className={styles.button}>Book Now</button>
           </ul>
-          )
         </nav>
       )}
     </>

@@ -6,8 +6,8 @@ function FAQPage() {
   return (
     <div>
       <Navbar />
-      {/* <FAQ />
-      <Footer /> */}
+      <FAQ />
+      <Footer />
     </div>
   );
 }
