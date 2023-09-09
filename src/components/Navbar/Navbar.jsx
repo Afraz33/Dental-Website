@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [navOptions, setNavOptions] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const lowWidthStyle = {
+    position: isSmallScreen ? "fixed" : "",
+    top: isSmallScreen ? "10%" : "",
+  };
   useEffect(() => {
     // Function to check screen width and update isSmallScreen state
     const checkScreenWidth = () => {
@@ -58,7 +62,7 @@ function Navbar() {
         </svg>
       </div>
       {(!isSmallScreen || navOptions) && (
-        <nav className={styles.navbar}>
+        <nav className={styles.navbar} style={lowWidthStyle}>
           <div className={styles.logo}>
             <img
               src="/Dental-logo.png"

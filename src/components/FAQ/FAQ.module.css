@@ -1,7 +1,7 @@
 .FAQSection {
   width: 100%;
   height: fit-content;
-  padding: 80px 0px;
+  padding: 120px 0px;
 }
 
 .grid {
@@ -52,6 +52,7 @@
   color: black;
   text-align: center;
   margin-bottom: 15px;
+  margin-top: 0px;
   text-align: left;
 }
 
@@ -69,4 +70,10 @@
   width: 67%;
   margin: auto;
   margin-bottom: 60px;
+}
+
+@media (max-width: 1360px) {
+  .FAQSection {
+    padding: 20px 0px;
+  }
 }

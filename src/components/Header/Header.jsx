@@ -14,7 +14,7 @@ function Header() {
           autoPlay
           muted
           loop
-          height="860"
+          height="960"
         >
           <source
             width="100%"

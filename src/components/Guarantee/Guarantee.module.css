@@ -46,3 +46,13 @@
 .button:hover {
   background-color: #c51c1c;
 }
+
+@media (max-width: 768px) {
+  .heading_2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .description {
+    width: 80%;
+  }
+}

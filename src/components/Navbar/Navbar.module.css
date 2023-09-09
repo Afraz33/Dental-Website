@@ -44,7 +44,7 @@
   width: fit-content;
 }
 
-.logo:hover {
+.logoNav:hover {
   cursor: pointer;
 }
 
@@ -113,16 +113,23 @@
 }
 .toggle {
   display: none;
+  position: fixed;
+  width: 100%;
 }
 
+.logo_pic {
+  z-index: 999;
+}
 .navButton {
   margin-right: 50px;
+  /* z-index: 999; */
 }
 .navButton:hover {
   cursor: pointer;
 }
 @media (max-width: 1361px) {
   .toggle {
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;

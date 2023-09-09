@@ -101,3 +101,17 @@
     transform: translateY(0);
   }
 }
+@media (max-width: 991px) {
+  .steps_div {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .image_div {
+    width: 80%;
+    margin: auto;
+  }
+  .card {
+    width: 90%;
+  }
+}
