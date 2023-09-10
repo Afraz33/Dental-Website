@@ -1,7 +1,7 @@
 import styles from "./Dentists.module.css";
 function Dentists() {
   return (
-    <section className={styles.Dentists}>
+    <section id="OurTeam" className={styles.Dentists}>
       <h2 className={styles.heading_2}>
         Meet Our Team at <span className={styles.name}>FirstStopDental!</span>
       </h2>

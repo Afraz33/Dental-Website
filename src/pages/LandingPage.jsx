@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Header from "../components/Header/Header";
-import Service from "../components/Service/Service";
+import Steps from "../components/Steps/Steps";
 import Guarantee from "../components/Guarantee/Guarantee";
 import Dentists from "../components/Dentists/Dentists";
 import Features from "../components/Features/Features";
@@ -12,7 +12,7 @@ function LandingPage() {
     <div>
       <Navbar />
       <Header />
-      <Service />
+      <Steps />
       <Guarantee />
       <Dentists />
       <Features />

@@ -7,7 +7,7 @@ function PricingPage() {
     <div>
       <Navbar />
       <Pricing />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

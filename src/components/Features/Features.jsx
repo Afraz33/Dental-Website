@@ -2,7 +2,7 @@ import styles from "./Features.module.css";
 
 function Features() {
   return (
-    <section className={styles.Features}>
+    <section id="features" className={styles.Features}>
       <h3 className={styles.heading_2}>Dentistry You Can Count On</h3>
       <h4 className={styles.heading_3}>
         SAME AND NEXT DAY EMERGENCY APPOINTMENTS

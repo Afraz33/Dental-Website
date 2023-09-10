@@ -7,7 +7,7 @@ function FAQPage() {
     <div>
       <Navbar />
       <FAQ />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

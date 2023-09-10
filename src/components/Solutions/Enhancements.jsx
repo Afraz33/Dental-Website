@@ -2,7 +2,7 @@ import styles from "./Enhancements.module.css";
 
 function Enhancements() {
   return (
-    <section className={styles.Enhancements}>
+    <section id="enhancements" className={styles.Enhancements}>
       <div className={styles.grid}>
         <div className={styles.grid_column}>
           <h2 className={styles.heading_2}>

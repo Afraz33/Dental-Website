@@ -2,7 +2,7 @@ import styles from "./BeforeAfter.module.css";
 
 function BeforeAfter() {
   return (
-    <section className={styles.Before_After}>
+    <section id="BeforeAfter" className={styles.Before_After}>
       <h2 className={styles.heading_2}>Before and After</h2>
       <div className={styles.grid}>
         <div className={styles.one_comparison}>

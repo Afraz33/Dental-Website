@@ -1,7 +1,7 @@
-import styles from "./Service.module.css";
-function Service() {
+import styles from "./Steps.module.css";
+function Steps() {
   return (
-    <section className={styles.service}>
+    <section id="steps" className={styles.service}>
       <h2 className={styles.heading_2}>
         3 simple steps for achieving your best smile!
       </h2>
@@ -61,4 +61,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default Steps;

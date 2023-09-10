@@ -81,6 +81,35 @@ function Navbar() {
               Home
             </Link>
 
+            <a
+              className={styles.ListItem}
+              style={{ textDecoration: "none" }}
+              href="#features"
+            >
+              Why us?
+            </a>
+
+            <a
+              className={styles.ListItem}
+              style={{ textDecoration: "none" }}
+              href="#enhancements"
+            >
+              Our Services
+            </a>
+            <a
+              className={styles.ListItem}
+              style={{ textDecoration: "none" }}
+              href="#BeforeAfter"
+            >
+              Before-After
+            </a>
+            <a
+              className={styles.ListItem}
+              style={{ textDecoration: "none" }}
+              href="#OurTeam"
+            >
+              Our Team
+            </a>
             <Link
               style={{ textDecoration: "none" }}
               className={styles.ListItem}
@@ -96,13 +125,6 @@ function Navbar() {
             >
               FAQ
             </Link>
-
-            <li className={styles.ListItem}>Why us?</li>
-
-            <li className={styles.ListItem}>Our Services</li>
-            <li className={styles.ListItem}>Before-After</li>
-            <li className={styles.ListItem}>Our Team</li>
-
             <button className={styles.button}>Book Now</button>
           </ul>
         </nav>
