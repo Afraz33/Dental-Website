@@ -112,6 +112,7 @@
     margin: auto;
   }
   .card {
+    animation: none;
     width: 90%;
   }
 }
