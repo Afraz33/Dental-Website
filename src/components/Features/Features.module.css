@@ -59,3 +59,23 @@
   animation: fadeIn 3s ease-in forwards;
   margin-bottom: 70px;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 70px;
+  }
+}
