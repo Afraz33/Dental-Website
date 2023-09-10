@@ -16,21 +16,18 @@ function Enhancements() {
           <div className={styles.image_div}>
             <img
               className={styles.image}
-              src="doc_meet.jpg"
+              src="doc_meet2.jpg"
               alt="doc_meet"
             ></img>
           </div>
         </div>
         <div className={styles.grid_column}>
           <h2 className={styles.heading_2}>Choose Your Enhancements</h2>
-          <p className={styles.paragraph} style={{ marginTop: "-200px" }}>
+          <p className={styles.paragraph}>
             Work 1-on-1 with your dentist to pick the best cosmetic treatment to
             meet your vision:
           </p>
-          <div
-            className={styles.treatment_grid}
-            style={{ marginTop: "-340px", rowGap: "0px" }}
-          >
+          <div className={styles.treatment_grid}>
             <div className={styles.treatment}>
               <h4>Invisalign</h4>
             </div>

@@ -1,10 +1,10 @@
 .Footer {
   width: 100%;
-  height: 100px;
+  padding: 20px 0px;
   display: flex;
   justify-content: space-between;
   background-color: #03045e;
-
+  height: fit-content;
   align-items: center;
 }
 
@@ -15,6 +15,45 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-right: 30px;
   text-align: center;
+  text-wrap: wrap;
   animation: fadeIn 3s ease-in forwards;
-  margin-bottom: 70px;
+}
+.name {
+  margin-left: 150px;
+  display: flex;
+  column-gap: 10px;
+  color: white;
+}
+
+.links {
+  margin-right: 150px;
+  display: flex;
+  column-gap: 10px;
+  color: white;
+  height: 40px;
+}
+
+@media (max-width: 991px) {
+  .name {
+    margin-left: 50px;
+  }
+  .links {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .links {
+    text-align: center;
+    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading_3 {
+    margin-right: 0px;
+  }
 }

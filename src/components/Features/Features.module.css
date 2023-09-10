@@ -78,4 +78,11 @@
     grid-template-columns: 1fr;
     row-gap: 70px;
   }
+
+  .heading_2 {
+    padding: 0px 10px;
+  }
+  .heading_3 {
+    padding: 0px 10px;
+  }
 }

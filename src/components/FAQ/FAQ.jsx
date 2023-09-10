@@ -69,7 +69,11 @@ function FAQ() {
       </div>
       <div className={styles.grid}>
         {faqData.map((faq, index) => (
-          <div className={styles.faq} onClick={() => toggleExpand(index)}>
+          <div
+            key={index}
+            className={styles.faq}
+            onClick={() => toggleExpand(index)}
+          >
             <div className={styles.faqQuestion}>{faq.question}</div>
             {expanded[index] && (
               <div className={styles.faqAnswer}>{faq.answer}</div>

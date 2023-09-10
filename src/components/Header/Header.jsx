@@ -1,27 +1,9 @@
 import styles from "./Header.module.css";
-import Navbar from "../Navbar/Navbar";
+
 function Header() {
   return (
     <header id="home-section" className={styles.header}>
-      <Navbar />
-      <div class={styles.carousel_container}>
-        {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>
-        <div className={`${styles.overlay_box} ${styles.left_box2}`}></div> */}
-        <video
-          className={styles.video}
-          controls
-          width="100%"
-          autoPlay
-          muted
-          loop
-          height="960"
-        >
-          <source
-            width="100%"
-            src="dentist_video.mp4"
-            type="video/mp4"
-          ></source>
-        </video>
+      <div className={styles.info_container}>
         <div className={styles.heading_2_container}>
           <h2 className={`${styles.heading_2} ${styles.image_text}`}>
             Your Oral Health is Our{" "}
@@ -34,6 +16,25 @@ function Header() {
           dental care for you and your problems.
         </p>
         <button className={styles.button}>View Dentists</button>
+      </div>
+      <div class={styles.carousel_container}>
+        {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>
+        <div className={`${styles.overlay_box} ${styles.left_box2}`}></div> */}
+        <video
+          className={styles.video}
+          controls
+          width="100%"
+          autoPlay
+          muted
+          loop
+          height="100%"
+        >
+          <source
+            width="100%"
+            src="dentist_video.mp4"
+            type="video/mp4"
+          ></source>
+        </video>
       </div>
     </header>
   );

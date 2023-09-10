@@ -113,3 +113,37 @@
 .card .content:hover {
   opacity: 1;
 }
+
+@media (max-width: 991px) {
+  .one_comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .heading_3 {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .left_arrow {
+    width: 14px;
+    top: 16%;
+  }
+  .right_arrow {
+    width: 14px;
+    top: 16%;
+    left: 21%;
+  }
+
+  .card {
+    width: 80%;
+    margin: auto;
+  }
+}

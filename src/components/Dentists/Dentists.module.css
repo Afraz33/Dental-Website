@@ -97,7 +97,7 @@
   height: 40px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
     row-gap: 50px;

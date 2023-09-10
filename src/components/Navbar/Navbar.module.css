@@ -115,6 +115,7 @@
   display: none;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 .logo_pic {
@@ -129,7 +130,6 @@
 }
 @media (max-width: 1361px) {
   .toggle {
-    z-index: 1;
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;

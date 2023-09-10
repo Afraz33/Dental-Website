@@ -10,6 +10,7 @@ import Enhancements from "../components/Solutions/Enhancements";
 function LandingPage() {
   return (
     <div>
+      <Navbar />
       <Header />
       <Service />
       <Guarantee />
