@@ -9,11 +9,11 @@ function BeforeAfter() {
           <div className={styles.card}>
             <img className={styles.image} src="before1.jpg" alt="before"></img>
             <div className={styles.content}>
-              <img
+              {/* <img
                 className={styles.right_arrow}
                 src="right-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <h3 className={styles.heading_3}>After</h3>
               <p className={styles.para}>
                 After a successful dental treatment and a period of recovery,
@@ -29,11 +29,11 @@ function BeforeAfter() {
             <img className={styles.image} src="after1.jpg" alt="before"></img>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
-              <img
+              {/* <img
                 className={styles.left_arrow}
                 src="left-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <p className={styles.para}>
                 Before seeking dental treatment, the patient's oral health
                 presented several challenges. The teeth exhibited signs of wear
@@ -53,11 +53,11 @@ function BeforeAfter() {
           <div className={styles.card}>
             <img className={styles.image} src="before1.jpg" alt="before"></img>
             <div className={styles.content}>
-              <img
+              {/* <img
                 className={styles.right_arrow}
                 src="right-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <h3 className={styles.heading_3}>After</h3>
               <p className={styles.para}>
                 After a successful dental treatment and a period of recovery,
@@ -73,11 +73,11 @@ function BeforeAfter() {
             <img className={styles.image} src="after1.jpg" alt="before"></img>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
-              <img
+              {/* <img
                 className={styles.left_arrow}
                 src="left-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <p className={styles.para}>
                 Before seeking dental treatment, the patient's oral health
                 presented several challenges. The teeth exhibited signs of wear
@@ -97,11 +97,11 @@ function BeforeAfter() {
           <div className={styles.card}>
             <img className={styles.image} src="before1.jpg" alt="before"></img>
             <div className={styles.content}>
-              <img
+              {/* <img
                 className={styles.right_arrow}
                 src="right-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <h3 className={styles.heading_3}>After</h3>
               <p className={styles.para}>
                 After a successful dental treatment and a period of recovery,
@@ -117,11 +117,11 @@ function BeforeAfter() {
             <img className={styles.image} src="after1.jpg" alt="before"></img>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
-              <img
+              {/* <img
                 className={styles.left_arrow}
                 src="left-arrow.png"
                 alt="left-arro"
-              ></img>
+              ></img> */}
               <p className={styles.para}>
                 Before seeking dental treatment, the patient's oral health
                 presented several challenges. The teeth exhibited signs of wear

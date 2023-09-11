@@ -79,20 +79,21 @@
 }
 
 .occupation {
-  font-size: 10px;
+  font-size: 15px;
 
   display: flex;
   flex-direction: column;
 
-  width: 80%;
+  width: 90%;
+  margin: auto;
   height: 50px;
   position: absolute;
   bottom: 5%;
-  left: 4%;
-  padding-top: 10px;
+
+  padding: 5px 0px;
   background-color: #f1f0f4;
   border-radius: 10px;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   height: 40px;
 }

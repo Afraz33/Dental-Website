@@ -114,7 +114,7 @@
   opacity: 1;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1001px) {
   .one_comparison {
     grid-template-columns: 1fr;
   }
@@ -128,9 +128,13 @@
   .heading_3 {
     font-size: 20px;
     padding: 0px;
+    left: 2%;
+    top: 0%;
   }
   .para {
+    left: 2%;
     font-size: 15px;
+    top: 17%;
   }
   .left_arrow {
     width: 14px;
