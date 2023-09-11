@@ -12,7 +12,7 @@ function Features() {
           <div className={styles.image}>
             <img
               className={styles.svg}
-              src="/family-vector.png"
+              src="/family-vector.AVIF"
               alt="family"
             ></img>
           </div>
@@ -28,7 +28,7 @@ function Features() {
           <div className={styles.image}>
             <img
               className={styles.svg}
-              src="/medical-kit.png"
+              src="/medical-kit.AVIF"
               alt="family"
             ></img>
           </div>
@@ -42,7 +42,7 @@ function Features() {
         </div>
         <div className={styles.card}>
           <div className={styles.image}>
-            <img className={styles.svg} src="/calendar.png" alt="family"></img>
+            <img className={styles.svg} src="/calendar.AVIF" alt="family"></img>
           </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
             Open 6 days a week
@@ -54,7 +54,7 @@ function Features() {
         </div>
         <div className={styles.card}>
           <div className={styles.image}>
-            <img className={styles.svg} src="/computer.png" alt="family"></img>
+            <img className={styles.svg} src="/computer.AVIF" alt="family"></img>
           </div>
           <h4 style={{ textAlign: "center", marginTop: "0" }}>
             Modern Digital Dental Office
@@ -68,7 +68,7 @@ function Features() {
           <div className={styles.image}>
             <img
               className={styles.svg}
-              src="/virtual-check.png"
+              src="/virtual-check.AVIF"
               alt="family"
             ></img>
           </div>
@@ -84,7 +84,7 @@ function Features() {
           <div className={styles.image}>
             <img
               className={styles.svg}
-              src="/credit-card.png"
+              src="/credit-card.AVIF"
               alt="family"
             ></img>
           </div>

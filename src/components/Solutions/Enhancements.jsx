@@ -29,20 +29,20 @@ function Enhancements() {
           </p>
           <div className={styles.treatment_grid}>
             <div className={styles.treatment}>
-              <h4>Invisalign</h4>
+              <p>Invisalign</p>
             </div>
             <div className={styles.treatment}>
-              <h4>Teeth Whitening</h4>
+              <p>Teeth Whitening</p>
             </div>
             <div className={styles.treatment}>
-              <h4>Extraction</h4>
+              <p>Extraction</p>
             </div>
 
             <div className={styles.treatment}>
-              <h4>Teeth Whitening</h4>
+              <p>Teeth Whitening</p>
             </div>
             <div className={styles.treatment}>
-              <h4>Extraction</h4>
+              <p>Extraction</p>
             </div>
           </div>
         </div>

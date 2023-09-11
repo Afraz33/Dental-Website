@@ -9,7 +9,7 @@ function Steps() {
         <div className={styles.card}>
           <div className={styles.image_div}>
             <img
-              src="/speaking.jpg"
+              src="/speaking.AVIF"
               alt="speaking"
               className={styles.image}
             ></img>
@@ -25,7 +25,7 @@ function Steps() {
         <div className={styles.card}>
           <div className={styles.image_div}>
             <img
-              src="/dentist_speak.jpg"
+              src="/dentist_speak.AVIF"
               alt="speaking"
               className={styles.image}
             ></img>
@@ -41,7 +41,7 @@ function Steps() {
         <div className={styles.card}>
           <div className={styles.image_div}>
             <img
-              src="/fianlize_plan.jpg"
+              src="/fianlize_plan.AVIF"
               alt="speaking"
               className={styles.image}
             ></img>

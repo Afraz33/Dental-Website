@@ -17,7 +17,7 @@ function Header() {
         </p>
         <button className={styles.button}>View Dentists</button>
       </div>
-      <div class={styles.carousel_container}>
+      <div className={styles.carousel_container}>
         {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>
         <div className={`${styles.overlay_box} ${styles.left_box2}`}></div> */}
         <video

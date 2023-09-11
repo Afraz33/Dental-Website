@@ -7,28 +7,44 @@ function Dentists() {
       </h2>
       <div className={styles.grid}>
         <div className={styles.card}>
-          <img src="/dentist1.png" alt="dentist" className={styles.image}></img>
+          <img
+            src="/dentist1.AVIF"
+            alt="dentist"
+            className={styles.image}
+          ></img>
           <h3 className={styles.heading_3}>Oncologist</h3>
           <div className={styles.occupation}>
             <h4 className={styles.heading_4}> Dr. John Doe</h4>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/dentist2.png" alt="dentist" className={styles.image}></img>
+          <img
+            src="/dentist2.AVIF"
+            alt="dentist"
+            className={styles.image}
+          ></img>
           <h3 className={styles.heading_3}>Orthodontist</h3>
           <div className={styles.occupation}>
             <h4 className={styles.heading_4}> Dr. Michael Anderson </h4>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/dentist3.png" alt="dentist" className={styles.image}></img>
+          <img
+            src="/dentist3.AVIF"
+            alt="dentist"
+            className={styles.image}
+          ></img>
           <h3 className={styles.heading_3}>Cosmetic Dentist</h3>
           <div className={styles.occupation}>
             <h4 className={styles.heading_4}> Dr. David Reynolds</h4>
           </div>
         </div>
         <div className={styles.card}>
-          <img src="/dentist4.png" alt="dentist" className={styles.image}></img>
+          <img
+            src="/dentist4.AVIF"
+            alt="dentist"
+            className={styles.image}
+          ></img>
           <h3 className={styles.heading_3}>Periodontist</h3>
           <div className={styles.occupation}>
             <h4 className={styles.heading_4}> Dr. William Turner </h4>
