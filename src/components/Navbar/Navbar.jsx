@@ -43,7 +43,7 @@ function Navbar() {
       >
         <div className={styles.logoNav}>
           <img
-            src="/Dental-logo.png"
+            src="/Dental-logo.AVIF"
             alt="logo"
             className={styles.logo_pic}
           ></img>
@@ -65,7 +65,7 @@ function Navbar() {
         <nav className={styles.navbar} style={lowWidthStyle}>
           <div className={styles.logo}>
             <img
-              src="/Dental-logo.png"
+              src="/Dental-logo.AVIF"
               alt="logo"
               className={styles.logo_pic}
             ></img>

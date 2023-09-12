@@ -4,7 +4,13 @@ function Guarantee() {
   return (
     <section>
       <div className={styles.top_bar}>
-        <img src="/teeth_tick.png" alt="logo" className={styles.logo}></img>
+        <img
+          width="140"
+          height="100"
+          src="/teeth_tick.AVIF"
+          alt="logo"
+          className={styles.logo}
+        ></img>
         <h2 className={styles.heading_2}>100% Satisfaction Guarantee!</h2>
         <p className={styles.description}>
           We only provide high quality dentistry & materials backed by our 100%

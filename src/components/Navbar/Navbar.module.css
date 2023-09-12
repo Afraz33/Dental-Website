@@ -12,7 +12,8 @@
   color: #03045e;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 10px;
+  /* padding-top: 20px; */
+  margin-top: 20px;
   align-items: center; /* Add this line */
   box-shadow: white;
   box-shadow: 4px;

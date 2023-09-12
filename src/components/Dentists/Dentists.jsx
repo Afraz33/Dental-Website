@@ -8,6 +8,7 @@ function Dentists() {
       <div className={styles.grid}>
         <div className={styles.card}>
           <img
+            style={{ aspectRatio: "3/2" }}
             src="/dentist1.AVIF"
             alt="dentist"
             className={styles.image}
