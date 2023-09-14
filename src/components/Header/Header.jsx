@@ -1,6 +1,27 @@
 import styles from "./Header.module.css";
-
+import { useEffect, useState } from "react";
 function Header() {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    // Function to check screen width and update isSmallScreen state
+    const checkScreenWidth = () => {
+      setIsSmallScreen(window.innerWidth < 1361);
+    };
+
+    // Add event listener to check screen width on window resize
+    window.addEventListener("resize", checkScreenWidth);
+
+    // Initial check
+    checkScreenWidth();
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", checkScreenWidth);
+    };
+  }, []);
+
+  const videoSource = isSmallScreen ? null : "dentist.mp4";
   return (
     <header id="home-section" className={styles.header}>
       <div className={styles.info_container}>
@@ -20,21 +41,19 @@ function Header() {
       <div className={styles.carousel_container}>
         {/* <div className={`${styles.overlay_box} ${styles.left_box1}`}></div>
         <div className={`${styles.overlay_box} ${styles.left_box2}`}></div> */}
-        <video
-          className={styles.video}
-          controls
-          width="100%"
-          autoPlay
-          muted
-          loop
-          height="100%"
-        >
-          <source
+        {videoSource && (
+          <video
+            className={styles.video}
+            controls
             width="100%"
-            src="dentist_video.mp4"
-            type="video/mp4"
-          ></source>
-        </video>
+            autoPlay
+            muted
+            loop
+            height="100%"
+          >
+            <source width="100%" src={videoSource} type="video/mp4"></source>
+          </video>
+        )}
       </div>
     </header>
   );

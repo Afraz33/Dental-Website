@@ -43,7 +43,7 @@ function Navbar() {
       >
         <div className={styles.logoNav}>
           <img
-            src="/Dental-logo.AVIF"
+            src="/Dental-logo.webP"
             alt="logo"
             className={styles.logo_pic}
           ></img>
@@ -62,10 +62,15 @@ function Navbar() {
         </svg>
       </div>
       {(!isSmallScreen || navOptions) && (
-        <nav className={styles.navbar} style={lowWidthStyle}>
+        <nav
+          className={`${isSmallScreen ? styles["margin-top"] : ""} ${
+            styles.navbar
+          }`}
+          style={lowWidthStyle}
+        >
           <div className={styles.logo}>
             <img
-              src="/Dental-logo.AVIF"
+              src="/Dental-logo.webP"
               alt="logo"
               className={styles.logo_pic}
             ></img>

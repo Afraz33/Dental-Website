@@ -15,8 +15,8 @@ function Enhancements() {
           </p>
           <div className={styles.image_div}>
             <img
-              width="100"
-              height="100"
+              // width="100"
+              // height="100"
               className={styles.image}
               src="doc_meet2.AVIF"
               alt="doc_meet"

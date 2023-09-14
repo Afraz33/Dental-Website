@@ -1,3 +1,47 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .Dentists {
   height: fit-content;
   width: 100%;
@@ -9,7 +53,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   text-align: center;
-  margin: 0;
+  margin-bottom: 40px;
 }
 
 .name {
@@ -33,8 +77,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
+  height: 300px;
+  width: 250px;
   position: relative;
   border-radius: 10%;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth, ease-in-out transition */
@@ -42,17 +86,14 @@
 
 .card:hover {
   cursor: pointer;
-  /* transform: scale(1.1); */
-
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2); /* Increase the scale slightly on hover */
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.image_div {
+
+.image {
   width: 100%;
   height: 380px;
-}
-.image {
-  max-width: 100%;
-  max-height: 80%;
   border-radius: 10%;
 }
 
@@ -99,33 +140,6 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-}
-/* .swiperContainer {
-  padding: 40px 0px;
-} */
-.mySwiper {
-  margin-top: 5px;
-  width: 60%;
-  height: 100%;
-  padding: 20px 0px !important;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 @media (max-width: 768px) {

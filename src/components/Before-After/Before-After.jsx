@@ -7,7 +7,13 @@ function BeforeAfter() {
       <div className={styles.grid}>
         <div className={styles.one_comparison}>
           <div className={styles.card}>
-            <img className={styles.image} src="before1.jpg" alt="before"></img>
+            <div className={styles.image_div}>
+              <img
+                className={styles.image}
+                src="before1.webp"
+                alt="before"
+              ></img>
+            </div>
             <div className={styles.content}>
               {/* <img
                 className={styles.right_arrow}
@@ -26,7 +32,13 @@ function BeforeAfter() {
             </div>
           </div>
           <div className={styles.card}>
-            <img className={styles.image} src="after1.jpg" alt="before"></img>
+            <div className={styles.image_div}>
+              <img
+                className={styles.image}
+                src="after1.webp"
+                alt="before"
+              ></img>
+            </div>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
               {/* <img
@@ -51,7 +63,7 @@ function BeforeAfter() {
         <div className={styles.line}></div>{" "}
         <div className={styles.one_comparison}>
           <div className={styles.card}>
-            <img className={styles.image} src="before1.jpg" alt="before"></img>
+            <img className={styles.image} src="before1.webp" alt="before"></img>
             <div className={styles.content}>
               {/* <img
                 className={styles.right_arrow}
@@ -70,7 +82,7 @@ function BeforeAfter() {
             </div>
           </div>
           <div className={styles.card}>
-            <img className={styles.image} src="after1.jpg" alt="before"></img>
+            <img className={styles.image} src="after1.webp" alt="before"></img>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
               {/* <img
@@ -95,7 +107,7 @@ function BeforeAfter() {
         <div className={styles.line}></div>{" "}
         <div className={styles.one_comparison}>
           <div className={styles.card}>
-            <img className={styles.image} src="before1.jpg" alt="before"></img>
+            <img className={styles.image} src="before1.webp" alt="before"></img>
             <div className={styles.content}>
               {/* <img
                 className={styles.right_arrow}
@@ -114,7 +126,7 @@ function BeforeAfter() {
             </div>
           </div>
           <div className={styles.card}>
-            <img className={styles.image} src="after1.jpg" alt="before"></img>
+            <img className={styles.image} src="after1.webp" alt="before"></img>
             <div className={styles.content}>
               <h3 className={styles.heading_3}>Before</h3>
               {/* <img

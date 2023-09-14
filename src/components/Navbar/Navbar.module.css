@@ -1,8 +1,11 @@
 /* Navbar.module.css */
 
+.margin-top {
+  margin-top: 20px;
+}
 .navbar {
   z-index: 999;
-
+  margin-bottom: 0;
   animation: fadeIn 1s ease-in-out forwards;
 
   width: 100%;
@@ -12,8 +15,8 @@
   color: #03045e;
   flex-direction: row;
   justify-content: space-between;
-  /* padding-top: 20px; */
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   align-items: center; /* Add this line */
   box-shadow: white;
   box-shadow: 4px;

@@ -7,7 +7,7 @@ function Guarantee() {
         <img
           width="140"
           height="100"
-          src="/teeth_tick.AVIF"
+          src="/teeth_tick.webp"
           alt="logo"
           className={styles.logo}
         ></img>

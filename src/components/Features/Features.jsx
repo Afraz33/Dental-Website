@@ -14,7 +14,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/family-vector.AVIF"
+              src="/family-vector.webp"
               alt="family"
             ></img>
           </div>
@@ -32,7 +32,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/medical-kit.AVIF"
+              src="/medical-kit.webp"
               alt="family"
             ></img>
           </div>
@@ -50,7 +50,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/calendar.AVIF"
+              src="/calendar.webp"
               alt="family"
             ></img>
           </div>
@@ -68,7 +68,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/computer.AVIF"
+              src="/computer.webp"
               alt="family"
             ></img>
           </div>
@@ -86,7 +86,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/virtual-check.AVIF"
+              src="/virtual-check.webp"
               alt="family"
             ></img>
           </div>
@@ -104,7 +104,7 @@ function Features() {
               width="80"
               height="80"
               className={styles.svg}
-              src="/credit-card.AVIF"
+              src="/credit-card.webp"
               alt="family"
             ></img>
           </div>
