@@ -34,6 +34,18 @@
   height: fit-content;
   text-wrap: wrap;
 }
+
+.heading_2_ {
+  width: 80%;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: left;
+  margin-bottom: 10px;
+  height: fit-content;
+  text-wrap: wrap;
+}
 .paragraph {
   width: 100%;
   font-size: 20px;
@@ -102,6 +114,12 @@
     width: 70%;
     margin-top: 0px;
   }
+  .heading_2_ {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-top: 0px;
+  }
   .paragraph {
     text-align: center;
   }
@@ -113,5 +131,12 @@
 
   .heading_2 {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading_2_ {
+    font-size: 30px;
+    width: 80%;
   }
 }

@@ -24,7 +24,7 @@ function Enhancements() {
           </div>
         </div>
         <div className={styles.grid_column}>
-          <h2 className={styles.heading_2}>Choose Your Enhancements</h2>
+          <h2 className={styles.heading_2_}>Choose Your Enhancements</h2>
           <p className={styles.paragraph}>
             Work 1-on-1 with your dentist to pick the best cosmetic treatment to
             meet your vision:

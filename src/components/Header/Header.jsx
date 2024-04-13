@@ -21,7 +21,7 @@ function Header() {
     };
   }, []);
 
-  const videoSource = isSmallScreen ? null : "dentist.mp4";
+  const videoSource = isSmallScreen ? null : "dentist_video.webm";
   return (
     <header id="home-section" className={styles.header}>
       <div className={styles.info_container}>

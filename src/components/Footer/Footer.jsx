@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className={styles.Footer}>
       <h3 className={`${styles.heading_3} ${styles.name}`}>
-        First Stop Dental @ All Rights reserved
+        ToothTrack @ All Rights reserved
       </h3>
       <div className={styles.links}>
         <h3 className={styles.heading_3}>Contact</h3>

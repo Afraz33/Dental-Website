@@ -74,7 +74,7 @@ function Navbar() {
               alt="logo"
               className={styles.logo_pic}
             ></img>
-            <p className={styles.heading_3}>First Stop Dental</p>
+            <p className={styles.heading_3}>ToothTrack</p>
           </div>
 
           <ul className={styles.Links}>
